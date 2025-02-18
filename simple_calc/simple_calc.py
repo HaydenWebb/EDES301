@@ -66,6 +66,11 @@ import operator
 # Global variables
 # ------------------------------------------------------------------------
 
+try:
+    input = raw_input
+except NameError:
+    pass 
+
 # NOTE - Global variable to map an operator string (e.g. "+") to 
 # NOTE - the appropriate function.
 operators = {
@@ -74,7 +79,11 @@ operators = {
     "+":operator.add,
     "-":operator.sub,
     "*":operator.mul,
-    "/":operator.truediv
+    "/":operator.truediv,
+    ">>":operator.rshift,
+    "<<":operator.lshift,
+    "%":operator.mod,
+    "**":operator.pow
 }
 
 
@@ -94,7 +103,8 @@ def get_user_input():
         # NOTE - fill out the contents.  This pass statement should be removed    
         input1 = int(input("First Number: "))
         input2 = int(input("Second Number: "))
-        op =     input("Operation: ('+', '-', '*', '/'): ")
+        op =     input("Operation: ('+', '-', '*', '/', '>>', '<<', '%', '**'): ")
+        
         
         return (input1, input2, operators[op])
         # NOTE - User input is generally returned as a string and must be translated.
