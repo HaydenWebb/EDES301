@@ -4,7 +4,7 @@
 Simple Calculator
 --------------------------------------------------------------------------
 License:   
-Copyright 2025 - <NAME>
+Copyright 2025 - Hayden Webb
 
 Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions are met:
@@ -44,6 +44,10 @@ Operations:
   - "-" : subtraction
   - "*" : multiplication
   - "/" : division
+  - ">>": Right Shift
+  - "<<": Left Shift
+  - "%" : Modulo
+  - "**": exponentation
 
 Error conditions:
   - Invalid operator --> Program should exit
