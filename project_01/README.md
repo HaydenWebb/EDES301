@@ -16,14 +16,8 @@ If needed to, a flex sensor and motor test script (flex_test and motor_test resp
 
 ## Physical Construction
 
-To learn more about the physical build for this project, please follow [this link](www.google.com) to the associated Hackster page. There you'll find more information regarding the construction and steps taken to create this manipulator.
+To learn more about the physical build for this project, please follow [this link](https://www.hackster.io/haydenwebb/in-hand-palm-2dof-manipulator-6d990e) to the associated Hackster page. There you'll find more information regarding the construction and steps taken to create this manipulator.
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-README in github under the “project_01” directory with software build instructions, software operation
-instructions, and links to the Hackster.io page
-
-he github README
-should focus on the software
