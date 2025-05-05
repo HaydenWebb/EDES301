@@ -1,0 +1,8 @@
+username: hmw5@rice.edu
+password: EDES301_pcb
+
+Quotes:
+1 - $445.49
+10 - $518.98
+100 - $1,628.73
+1000 - $3,749.74
